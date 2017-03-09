@@ -1,0 +1,68 @@
+{
+  "name": "mkit-gcc",
+  "version": "1.0.0",
+  "inherits": {
+    "nordic-nrf51822-gcc": "^1.0.0"
+  },
+  "description": "Official mbed build target for the nrf51822 16KB chip.",
+  "homepage": "https://github.com/ARMmbed/target-mkit-gcc",
+  "repository": {
+    "url": "git@github.com:ARMmbed/target-mkit-gcc.git",
+    "type": "git"
+  },
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "keywords": [
+    "mbed-official",
+    "gcc"
+  ],
+  "similarTo": [
+    "mkit"
+  ],
+  "config": {
+    "nrf51822": {
+      "ram_size": "16K"
+    },
+    "image": {
+      "heap": {
+        "warning_threshold": 1024
+      }
+    },
+    "hardware": {
+      "pins": {
+        "LED1": "p18",
+        "LED2": "p19",
+        "LED3": "p18",
+        "LED4": "p19",
+        "BUTTON1": "p16",
+        "BUTTON2": "p17",
+        "RX_PIN_NUMBER": "p11",
+        "TX_PIN_NUMBER": "p9",
+        "CTS_PIN_NUMBER": "p10",
+        "RTS_PIN_NUMBER": "p8",
+        "USBTX": "TX_PIN_NUMBER",
+        "USBRX": "RX_PIN_NUMBER",
+        "SPI_PSELMOSI0": "p20",
+        "SPI_PSELMISO0": "p22",
+        "SPI_PSELSS0": "p24",
+        "SPI_PSELSCK0": "p25",
+        "SPI_PSELMOSI1": "p12",
+        "SPI_PSELMISO1": "p13",
+        "SPI_PSELSS1": "p14",
+        "SPI_PSELSCK1": "p15",
+        "SPIS_PSELMOSI": "p12",
+        "SPIS_PSELMISO": "p13",
+        "SPIS_PSELSS": "p14",
+        "SPIS_PSELSCK": "p15",
+        "I2C_SDA0": "p22",
+        "I2C_SCL0": "p20",
+        "I2C_SDA1": "p13",
+        "I2C_SCL1": "p15"
+      }
+    }
+  }
+}

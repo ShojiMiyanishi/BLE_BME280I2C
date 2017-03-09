@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.799169435/PATH/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.799169435/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.799169435/PATH/value=/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/bin\:/Users/omiya/embed/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/bin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.799169435/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.799169435/appendContributed=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2015378514/PATH/delimiter=\:
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2015378514/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2015378514/PATH/value=/Users/omiya/embed/gcc-arm/gcc-arm-none-eabi-4_9-2015q3/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/bin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2015378514/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.toolchain.base.2015378514/appendContributed=true

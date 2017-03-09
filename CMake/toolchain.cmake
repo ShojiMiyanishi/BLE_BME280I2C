@@ -1,0 +1,5 @@
+#i2c version2
+
+#add_definitions(-DDEVICE_I2C -DDEVICE_I2C_ASYNCH)
+
+#set(YOTTA_CFG_NORDIC_SOFTDEVICE "S130")
